@@ -1,0 +1,98 @@
+body {
+  background-image: url("td.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Google Sans, arial, sans-serif;
+}
+.container {
+  max-width: 950px;
+  border: 1px solid;
+  border-color: rgba(110, 140, 170, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 1px 10px;
+  margin-bottom: 10px;
+  background-color: rgba(16, 20, 21, 0.8);
+  color:white;
+}
+.forecast-container {
+  background: rgba(7, 12, 14, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  color:white;
+}
+
+.forecast-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-item {
+  padding: 10px;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.btn{
+  max-width: 850;
+  border:1px colid;
+  border-color: rgba(110, 140, 170, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 1px 10px;
+  background-color: rgba(135, 206, 229, 0.8);
+}
+  
+.temperature {
+font-size: 60px;
+}
+
+.cel{
+  text-align: center;
+}
+.unit {
+  color: #202124;
+  display: inline-block;
+  font-size: 25px;
+  line-height: 24px;
+  margin-top: 20px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+
+.unit a {
+  text-decoration: none;
+}
+
+.unit .active {
+  text-decoration: none;
+  color: #202124;
+}
+.unit a:hover {
+  cursor: default;
+}
+.sun{
+  padding-left:6px;
+  vertical-align: top;
+}
+.timedate{
+  text-decoration-color: rgb(127, 116, 116);
+}
+.forecast{
+  text-align: center;
+}
+.Footer{
+  margin-top:35px;
+  width:auto;
+  letter-spacing:1px;
+}
+.link{
+  text-decoration:
+  none; color:grey;
+}
+.link:hover{
+  color:white;
+  transition: 0.5s;
+}
